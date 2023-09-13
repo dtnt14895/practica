@@ -4,6 +4,7 @@ function SegundaParte(){
     return (
 <>
  <section className="arriba">
+    <div>
     <h1>
         Transform your brand
     </h1>
@@ -15,10 +16,12 @@ function SegundaParte(){
     <h3>
         LEARN MORE
     </h3>
+    </div>
     <img src="public/desktop/image-transform.jpg" alt="Huevo" />
     </section>
-    <section className="abajo">
+    <section className="medio">
     <img src="public/desktop/image-stand-out.jpg" alt="copa" />
+    <div>
     <h1>
         Stand out to the right audice
     </h1>
@@ -30,6 +33,11 @@ function SegundaParte(){
     <h3>
         LEARN MORE
     </h3>
+    </div>
+ </section>
+ <section className="abajo">
+    <img src="public/desktop/image-graphic-design.jpg" alt="ceresas" />
+    <img src="public/desktop/image-photography.jpg" alt="mandarina" />
  </section>
 
 
