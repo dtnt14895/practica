@@ -1,10 +1,23 @@
 import React from 'react'
+import image from "../../assets/desktop/image-header.jpg"
+import "./Header.css"
 
 function Header() {
   return (
-    <div>
-        <h1>Header</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At enim dolor sequi quo vitae ad blanditiis assumenda ipsum nulla velit delectus, iste suscipit aspernatur tempore ullam! Vitae ratione sint alias nulla at quibusdam perspiciatis fugit deleniti magnam hic iste consequatur incidunt asperiores accusantium quasi illo reiciendis magni, vel necessitatibus iusto voluptatum. Eaque necessitatibus enim quibusdam similique non molestias, tempora corrupti tempore ipsa aperiam accusamus? Animi praesentium unde officiis, amet, quasi inventore sed ducimus, cumque voluptatibus odio ipsum error laudantium! Quos sequi minima tempore totam, numquam dolores perspiciatis repellat, distinctio eaque similique necessitatibus non consequuntur ab reiciendis fuga veritatis, suscipit amet.</p>
+    <div className='imageo'>
+    <nav className='barra'>
+        <h1 className='sunny'>sunnysside</h1>
+        <ul>
+          <li>About</li>
+          <li>Services</li>
+          <li>Projects</li>
+          <button className='btn-contact'>CONTACT</button>
+        </ul>
+    </nav>
+    <div className='cont-image'>
+      <h1 className='title'>WE ARE CREATIVES</h1>
+      <img src={image} alt="image" />
+    </div>
     </div>
   )
 }
